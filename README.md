@@ -3,14 +3,11 @@
 "bagchecklist" é uma simples checklist HTML para acompanhar tarefas importantes. Ela pode ser utilizada como uma listas das compras de supermercado, lista de afazeres diários ou até mesmo um guia para projetos, esta lista é flexível e fácil de personalizar para suas necessidades específicas. Simplifique sua organização e não deixe nada passar despercebido com esta prática ferramenta online.
 
 # >Tecnologias/linguagens utilizadas:
-- HTML5
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="20" height="20"/> HTML5
 
-- CSS3
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="20" height="20"/> CSS3
 
-- JAVASCRIPT
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="20" height="20"/>          
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="20" height="20"/>          
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="20" height="20"/>
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="20" height="20"/> JAVASCRIPT
 
 # >Como utilizar?
 ## Instalação:   
