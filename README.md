@@ -8,17 +8,20 @@
 - CSS3
 
 - JAVASCRIPT
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="20" height="20"/>          
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="20" height="20"/>          
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="20" height="20"/>
 
 # >Como utilizar?
-##Instalação:   
-1.Abra um terminal em um diretório          
-2.Git init        
-3.Git clone URL DO REPOSITÓRIO
+## Instalação:   
+1. Abra um terminal em um diretório          
+2. Git init        
+3. Git clone URL DO REPOSITÓRIO
 
-##Run:  
+## Run:  
 Nossa recomendação é usar a extensão LiveServer do VSCODE para rodar o projeto
 
-##Exemplos de uso:  
+## Exemplos de uso:  
 Faça novas funcionalidades;  
 Incremente do jeito que quiser para uso pessoal;  
 Mude o estilo;   
