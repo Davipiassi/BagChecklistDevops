@@ -1,0 +1,2 @@
+# IGNORE THE ./.vscode directory with liveServer extension settings
+.vscode/* 
