@@ -1,0 +1,38 @@
+/* ARQUIVO PRINCIPAL DE CSS */
+/* Importando e unificando o demais CSS */
+@import url("header.css");
+@import url("form.css");
+@import url("items.css");
+
+/* Definindo variáveis de cor e fonte */
+:root{
+    --white-bg: #f1f8fc;
+    --white: #ffffff;
+    --blue: #0261A2;
+    --black: #15191B;
+    --red: #a80303;
+    --gray: #3d3f3f;
+    --main-font: "Poppins";
+}
+
+/* Configurações gerais MOBILE */
+body{
+    background-color: var(--white-bg);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content{
+    padding: 1.5em;
+}
+
+/* Configurações gerais DESKTOP */
+@media screen and (min-width: 1280px){
+    .content{
+        padding: 3em;
+        display: flex;
+        gap: 2em;
+    }
+}
+
