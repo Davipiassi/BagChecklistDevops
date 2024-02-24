@@ -28,6 +28,13 @@ function createElement(item){
     list.appendChild(newItem)
 }
 
+// função que atualiza a quantidade do item
+// criada por Davi Piassi em 23/02/2023
+function updateElement(item){
+    // function that updates a item if it already exists
+    document.querySelector("[data-id='"+item.id+"']").innerHTML = item.itemNumber
+}
+
 // função que cria o botão deletar e suas funcionalidades
 // criada por Eduardo Nehme em 23/02/2023
 function deleteButton(id){
@@ -85,11 +92,20 @@ form.addEventListener("submit", (event) => {
         "itemNumber": itemNumber
     }
 
-    // adicionando novo item
-    currentItem.id = items[items.length - 1] ? (items[items.length - 1]).id + 1 : 0;
+    // se o item existe, será atualizado com a nova quantidade. Se o item não existe, um novo item com suas características é adicionado
+    const alreadyExists = items.find(element => element.itemName === name.value)
+    if (alreadyExists) {
+        currentItem.id = alreadyExists.id
 
-    createElement(currentItem)
-    items.push(currentItem)
+        updateElement(currentItem)
+
+        items[items.findIndex(element => element.id === alreadyExists.id)] = currentItem
+    } else {
+        currentItem.id = items[items.length - 1] ? (items[items.length - 1]).id + 1 : 0;
+
+        createElement(currentItem)
+        items.push(currentItem)
+    }
 
     // atualizando o localstorage após a mudança na lista de itens
     localStorage.setItem("items", JSON.stringify(items))
@@ -98,4 +114,3 @@ form.addEventListener("submit", (event) => {
     name.value = ""
     number.value = ""
 })
-
